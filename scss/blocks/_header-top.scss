@@ -1,0 +1,26 @@
+.header-top {
+  background: #111131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ababfa;
+
+  &__text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 29px;
+  }
+
+  &__link {
+    margin-left: 8px;
+    color: #ababfa;
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 29px;
+  }
+}

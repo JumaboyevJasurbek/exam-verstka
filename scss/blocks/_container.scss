@@ -1,9 +1,26 @@
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1240px;
+  max-width: 1400px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1400px;
+  padding-left: 110px;
+  padding-right: 110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recent-container {
+  width: 100%;
+  max-width: 1400px;
+  padding-left: 110px;
+  padding-right: 110px;
   margin-left: auto;
   margin-right: auto;
 }

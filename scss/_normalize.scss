@@ -5,7 +5,13 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
- html {
+
+//  *{
+//   margin: 0;
+//   padding: 0;
+
+//  }
+html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
@@ -18,6 +24,7 @@
 */
 body {
   margin: 0;
+  font-family: "Inter";
 }
 /**
 * Render the `main` element consistently in IE.
@@ -52,7 +59,7 @@ hr {
 * 2. Correct the odd `em` font sizing in all browsers.
 */
 pre {
-  font-family: monospace, monospace;
+  font-family: "Inter";
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -91,7 +98,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: "Inter";
   /* 1 */
   font-size: 1em;
   /* 2 */

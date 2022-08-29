@@ -1,0 +1,126 @@
+.link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+  background: #111131;
+  border-radius: 8px;
+  margin-bottom: 165px;
+
+  //   &__left {
+  //   }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #5c5cff;
+  }
+
+  &__heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+
+  &__email {
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #5c5cff;
+    background: #1b1b4d;
+    border: 1px solid #8989f8;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+
+  &__button {
+    margin-top: 16px;
+    height: 56px;
+    width: 534px;
+    background: #5c5cff;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .link {
+    &__email {
+      line-height: 20px;
+
+      font-size: 14px;
+      padding: 20px;
+      width: 450px;
+    }
+    &__button {
+      line-height: 20px;
+      font-size: 14px;
+      padding: 20px;
+      width: 450px;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .link {
+    padding: 20px;
+    &__heading {
+      font-size: 20px;
+    }
+
+    &__email {
+      line-height: 20px;
+
+      font-size: 14px;
+      padding: 20px;
+      width: 350px;
+    }
+    &__button {
+      line-height: 20px;
+      font-size: 14px;
+      padding: 20px;
+      width: 350px;
+    }
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .link {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .link {
+    &__email {
+      font-size: 12px;
+      padding: 10px;
+      width: 250px;
+    }
+    &__button {
+      font-size: 12px;
+      padding: 10px;
+      width: 250px;
+    }
+  }
+}
